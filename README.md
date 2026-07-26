@@ -1,10 +1,10 @@
 # 🔧 FixIT Manager
 
-Modern REST API for managing a computer repair workshop.
+Modern REST API for managing a Service Center Management System.
 
 ## About
 
-FixIT Manager is a backend application designed to automate the workflow of a computer repair workshop.
+FixIT Manager is a backend application designed to automate the workflow of a Service Center Management System.
 
 The system helps technicians manage customers, repair orders, devices, spare parts and repair history.
 
