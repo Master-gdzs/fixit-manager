@@ -1,12 +1,9 @@
 from fastapi import FastAPI
 
-app = FastAPI(
-    title="FixIT Manager",
-    version="0.1.0"
-)
+from app.core.config import settings
 
-@app.get("/")
-def root():
-    return {
-        "message": "Welcome to FixIT Manager API"
-    }
+
+app = FastAPI(
+    title=settings.app_name,
+    version=settings.app_version,
+)
